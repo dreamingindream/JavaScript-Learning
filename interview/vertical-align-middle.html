@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>多年不变的垂直居中问题 | 二男的博客</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="学习笔记 面试题">
+    <link rel="preload" href="/blog/assets/css/0.styles.fa7169f5.css" as="style"><link rel="preload" href="/blog/assets/js/app.3efa76eb.js" as="script"><link rel="preload" href="/blog/assets/js/2.682a5dc2.js" as="script"><link rel="preload" href="/blog/assets/js/18.5e9bc304.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.27e76019.js"><link rel="prefetch" href="/blog/assets/js/11.deb97b85.js"><link rel="prefetch" href="/blog/assets/js/12.35325b9b.js"><link rel="prefetch" href="/blog/assets/js/13.d57b1b13.js"><link rel="prefetch" href="/blog/assets/js/14.39c62a74.js"><link rel="prefetch" href="/blog/assets/js/15.19d24ab8.js"><link rel="prefetch" href="/blog/assets/js/16.b7799a96.js"><link rel="prefetch" href="/blog/assets/js/17.3eb5dc59.js"><link rel="prefetch" href="/blog/assets/js/3.2468536f.js"><link rel="prefetch" href="/blog/assets/js/4.7d5f245c.js"><link rel="prefetch" href="/blog/assets/js/5.a91beaee.js"><link rel="prefetch" href="/blog/assets/js/6.d93a3476.js"><link rel="prefetch" href="/blog/assets/js/7.1d7eca00.js"><link rel="prefetch" href="/blog/assets/js/8.8f17e45d.js"><link rel="prefetch" href="/blog/assets/js/9.253368ce.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.fa7169f5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">二男的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">
+  Docs
+</a></div><div class="nav-item"><a href="https://github.com/liuernan/blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">
+  Docs
+</a></div><div class="nav-item"><a href="https://github.com/liuernan/blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>面试</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/interview/array-unique.html" class="sidebar-link">数组去重</a></li><li><a href="/blog/interview/vertical-align-middle.html" aria-current="page" class="active sidebar-link">多年不变的垂直居中问题</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/interview/vertical-align-middle.html#_1-首选-flex" class="sidebar-link">1. 首选 flex</a></li><li class="sidebar-sub-header"><a href="/blog/interview/vertical-align-middle.html#_2-vertical-align" class="sidebar-link">2. vertical-align</a></li><li class="sidebar-sub-header"><a href="/blog/interview/vertical-align-middle.html#_3-负-margin" class="sidebar-link">3. 负 margin</a></li><li class="sidebar-sub-header"><a href="/blog/interview/vertical-align-middle.html#_4-marigin-auto" class="sidebar-link">4. marigin: auto</a></li><li class="sidebar-sub-header"><a href="/blog/interview/vertical-align-middle.html#_5-transform" class="sidebar-link">5. transform</a></li><li class="sidebar-sub-header"><a href="/blog/interview/vertical-align-middle.html#_6-table" class="sidebar-link">6. table</a></li></ul></li><li><a href="/blog/interview/brackets-correctly-closed.html" class="sidebar-link">括号正确闭合</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>笔记</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading open"><span>JavaScript</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/code/javascript/data-type.html" class="sidebar-link">Data Type</a></li><li><a href="/blog/code/javascript/function.html" class="sidebar-link">Function</a></li><li><a href="/blog/code/javascript/promise.html" class="sidebar-link">Promise</a></li><li><a href="/blog/code/javascript/async-await.html" class="sidebar-link">async await</a></li><li><a href="/blog/code/javascript/reflect-proxy.html" class="sidebar-link">Reflect Proxy</a></li><li><a href="/blog/code/javascript/class.html" class="sidebar-link">Class</a></li><li><a href="/blog/code/javascript/module.html" class="sidebar-link">Module</a></li><li><a href="/blog/code/javascript/api.html" class="sidebar-link">new API in ES 6</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>Express</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>设计模式</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="多年不变的垂直居中问题"><a href="#多年不变的垂直居中问题" class="header-anchor">#</a> 多年不变的垂直居中问题</h1> <p>先上 HTML：</p> <div class="language-html extra-class"><pre class="language-html"><code>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>outer<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>inner<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      innerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinnerinner
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>首先，如果外面元素没有写 <code>height</code>，只需要给外面的元素加上 <code>padding: 10px 0;</code> 就能将子元素垂直居中。</strong></p> <p><strong>如果外面元素写死了 <code>height</code>，就需要使用其它方法垂直居中。</strong></p> <p><strong>建议：在实际开发中，尽量不要写死高度</strong></p> <p>这里顺便提一下中文页面不常遇到的问题，单词过长会顶出去，有多长顶多长。设置 <code>word-break: break-all;</code> 即可。</p> <p><em>简单说一下历史原因：最初的浏览器和 <code>HTML</code> 的诞生，完全就是为了看文档的，
+<code>HTML</code> 的发明是为了文档的结构更清晰，而 <code>CSS</code> 的发明则是为了文档的排版更好看，就像真实的报纸、书的排版一样，可以看到那些搞 <code>CSS</code> 字体库设计的，
+都是艺术设计相关的背景。感兴趣的同学可以去了解一下 <code>CSS</code> 的发展过程，对理解 <code>CSS</code> 更有帮助。</em></p> <h2 id="_1-首选-flex"><a href="#_1-首选-flex" class="header-anchor">#</a> 1. 首选 <code>flex</code></h2> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.outer</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token comment">/* 外面容器的高度写死了 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid black<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span> <span class="token comment">/* 子元素垂直居中 */</span>
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span> <span class="token comment">/* 子元素水平居中 */</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.inner</span> <span class="token punctuation">{</span> <span class="token comment">/* 子元素啥都不用写 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h2 id="_2-vertical-align"><a href="#_2-vertical-align" class="header-anchor">#</a> 2. <code>vertical-align</code></h2> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.outer</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token comment">/* 外面容器的高度写死了 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid black<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.outer::after</span> <span class="token punctuation">{</span> <span class="token comment">/* 需要给外面容器加个伪类 */</span>
+    <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+    <span class="token property">vertical-align</span><span class="token punctuation">:</span> middle<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.inner</span> <span class="token punctuation">{</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span> <span class="token comment">/* vertical-align 生效的条件 */</span>
+    <span class="token property">vertical-align</span><span class="token punctuation">:</span> middle<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h2 id="_3-负-margin"><a href="#_3-负-margin" class="header-anchor">#</a> 3. 负 <code>margin</code></h2> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.outer</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token comment">/* 外面容器的高度写死了 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid black<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span> <span class="token comment">/* 外面元素相对定位 */</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.inner</span> <span class="token punctuation">{</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span> <span class="token comment">/* 子容器的顶部到达父容器垂直 50% 处 */</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span> <span class="token comment">/* 子容器高度固定 */</span>
+    <span class="token property">margin-top</span><span class="token punctuation">:</span> -50px<span class="token punctuation">;</span> <span class="token comment">/* 子容器负 margin 1/2 的高度，实现居中 */</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h2 id="_4-marigin-auto"><a href="#_4-marigin-auto" class="header-anchor">#</a> 4. <code>marigin: auto</code></h2> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.outer</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token comment">/* 外面容器的高度写死了 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid black<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span> <span class="token comment">/* 父容器相对定位 */</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.inner</span> <span class="token punctuation">{</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span> <span class="token comment">/* 子容器绝对定位 */</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span> <span class="token comment">/* 子容器宽度固定可以设置水平居中 */</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span> <span class="token comment">/* 子容器高度固定可以设置垂直居中 */</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span> 
+    <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span> <span class="token comment">/* top bottom 控制垂直居中 */</span>
+    <span class="token property">bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span> <span class="token comment">/* left right 控制水平居中 */</span>
+    <span class="token property">right</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h2 id="_5-transform"><a href="#_5-transform" class="header-anchor">#</a> 5. <code>transform</code></h2> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.outer</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token comment">/* 外面容器的高度写死了 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid black<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> lightblue<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span> <span class="token comment">/* 外面元素相对定位 */</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token selector">.inner</span> <span class="token punctuation">{</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid red<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span> <span class="token comment">/* 子容器的顶部到达父容器垂直 50% 处 */</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateY</span><span class="token punctuation">(</span>-50%<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">/* 不写死高度的情况下，子容器 Y 轴移动 -50% 子容器高度 */</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span> <span class="token comment">/* 同理可实现水平居中 */</span>
+    <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>-50%<span class="token punctuation">,</span> -50%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h2 id="_6-table"><a href="#_6-table" class="header-anchor">#</a> 6. <code>table</code></h2> <div class="language-html extra-class"><pre class="language-html"><code>  .outer {
+    width: 500px;
+    height: 500px; /* 外面容器的高度写死了 */
+    border: 1px solid black;
+    background-color: lightblue;
+    display: table; /* table 自带垂直居中，也可以在 HTML 直接使用 table 布局 */
+  }
+
+  .inner {
+    border: 1px solid red;
+    background-color: pink;
+    display: table-cell; /* table 自带垂直居中，也可以在 HTML 直接使用 table 布局 */
+  }
+</code></pre></div><p>总结：</p> <ul><li><p>最好用的是 <code>flex</code>，不接受反驳</p></li> <li><p>其次好一点的是 <code>transform</code> 方法，因为不用写死高度</p></li> <li><p>两个 <code>margin</code> 的方法差不多，但是写死高度总归是不好的</p></li> <li><p><code>vertical-align</code> 需要设置 <code>inline-block</code> ，这个很容易有别的坑</p></li> <li><p><code>table</code> 个人觉得不太好用，修改原生样式时可能会产生影响</p></li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">8/25/2020, 4:22:21 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/interview/array-unique.html" class="prev">
+        数组去重
+      </a></span> <span class="next"><a href="/blog/interview/brackets-correctly-closed.html">
+        括号正确闭合
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.3efa76eb.js" defer></script><script src="/blog/assets/js/2.682a5dc2.js" defer></script><script src="/blog/assets/js/18.5e9bc304.js" defer></script>
+  </body>
+</html>
